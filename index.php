@@ -838,12 +838,12 @@ $css = "<link rel='stylesheet' href='style.css' type='text/css' media='all'/>";
         }
         if(isset($_POST["Comment"]) && !empty($_POST["Comment"])) {
             $test ++;
-            $message .= '<div><div class="icon">8</div><textarea name="Comment" id="Comment" placeholder="Commentaire" required>'.$_POST["Comment"].'</textarea></div>';
+            $message .= '<div><div class="icon">8</div><textarea name="Comment" id="Comment" placeholder="Proposition d\'emploi, commentaire, message de sympathie, ... Faites vous plaisir !" required>'.$_POST["Comment"].'</textarea></div>';
         } else {
-            $message .= '<div><div class="icon">8</div><textarea class="Empty" name="Comment" id="Comment" placeholder="Commentaire" required></textarea></div>';
+            $message .= '<div><div class="icon">8</div><textarea class="Empty" name="Comment" id="Comment" placeholder="Proposition d\'emploi, commentaire, message de sympathie, ... Faites vous plaisir !" required></textarea></div>';
         }
         if($test==4) {
-            mail ( "guillaume.albespy@gmail.com" , "[Stage]".$_POST["Subject"] , $_POST["Comment"]."\n\n".$_POST["Name"], 'From: ' . $_POST["Mail"] . "\r\n" . 'Reply-To: ' . $_POST["Mail"] );
+            mail ( "emploi@albespy.fr" , $_POST["Subject"] , $_POST["Comment"]."\n\n".$_POST["Name"], 'From: ' . $_POST["Mail"] . "\r\n" . 'Reply-To: ' . $_POST["Mail"] );
             $message = '<p>Votre message a été correctement envoyé, merci pour votre intérêts.</p>
 
                         <div><div class="icon">Y</div><input  type="text" name="Name" id="Name" placeholder="Nom/Raison sociale" required/></div>
@@ -852,7 +852,7 @@ $css = "<link rel='stylesheet' href='style.css' type='text/css' media='all'/>";
 
                         <div><div class="icon">I</div><input type="text" name="Subject" id="Subject" placeholder="Objet" required/></div>
 
-                        <div><div class="icon">8</div><textarea name="Comment" id="Comment" placeholder="Commentaire" required></textarea></div>';
+                        <div><div class="icon">8</div><textarea name="Comment" id="Comment" placeholder="Proposition d\'emploi, commentaire, message de sympathie, ... Faites vous plaisir !" required></textarea></div>';
         } 
         echo $message;
     } else {
