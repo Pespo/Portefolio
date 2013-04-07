@@ -38,7 +38,7 @@ $css = "<link rel='stylesheet' href='style.css' type='text/css' media='all'/>";
 
                     <ul id="contact">
 
-                        <li> guillaume.albespy(a)gmail.com </li>
+                        <li> guillaume(a)albespy.fr </li>
 
                         <li> 06 65 39 40 35 </li>
 
@@ -61,7 +61,7 @@ $css = "<link rel='stylesheet' href='style.css' type='text/css' media='all'/>";
             </a>
             <a href="#Accueil">
                 <div id="entitled">
-                    <h1> Stage de <strong> programmeur </strong> du <br/> <strong>2 avril</strong> au <strong>12 septembre</strong> </h1>
+                    <h1> Actuellement en <strong>stage</strong> chez <strong>Neko entertainment</strong></h1>
                 </div>
             </a>
         </header>
@@ -861,7 +861,7 @@ $css = "<link rel='stylesheet' href='style.css' type='text/css' media='all'/>";
                         <div><div class='icon'>Y</div><input type="text" name="Name" id="Name" placeholder="Nom/Raison sociale" required/></div>
                         <div><div class='icon'>Å</div><input type="text" name="Mail" id="Mail" placeholder="eMail" required/></div>
                         <div><div class='icon'>I</div><input type="text" name="Subject" id="Subject" placeholder="Objet" required/></div>
-                        <div><div class='icon'>8</div><textarea name="Comment" id="Comment" placeholder="Proposition de stage, commentaire, message de sympathie, ... Faites vous plaisir !" required></textarea></div>
+                        <div><div class='icon'>8</div><textarea name="Comment" id="Comment" placeholder="Proposition d'emploi, commentaire, message de sympathie, ... Faites vous plaisir !" required></textarea></div>
                          
 <?php } ?>   
                     <input class="button" type="submit" value="envoyer"/>
@@ -907,21 +907,21 @@ $css = "<link rel='stylesheet' href='style.css' type='text/css' media='all'/>";
 
         <section id="Accueil" >
 
-            <h2>Félicitation !!! Vous avez gagné ...</h2>
+            <h2>En stage et heureux de l'être !</h2>
 
             <article>
 
-                <p class="comment"><strong>Un stagiaire !</strong> Futur ingénieur, curieux et souriant.</p>
+                <p class="comment">Et oui une entreprise m'a donné ma chance et je compte bien leur donner raison.</p>
 
-                <p class="comment">Multi compétent en programmation, il s'épanouit dans des univers tels que le jeux vidéo, le cinéma ou encore les domaines artistiques. Mais ce n'est pas tout !</p>
+                <p class="comment">Cependant il faut déjà prévoir demain et comme je compte poser mes bagages à <strong>Nantes</strong>, je prends de l'avance.<p>
 
-                <p class="comment">Ayant eu la chance de faire sa formation à l'<a href="HTTP://www.ingenieur-imac.fr" target="_blank"><abbr title="Image Multimédia Audiovisuelle Communication">IMAC</abbr></a> il est également à l'aise dans le développement web et à été initié au travail de la vidéo, de l'image et du son.</p>
+                <p class="comment">Multi compétent en <strong>programmation</strong>, je m'épanouis dans des univers tels que le <strong>jeux vidéo</strong>, le <strong>cinéma</strong> ou encore les domaines <strong>artistiques</strong>. Mais ce n'est pas tout !</p>
 
-                <p class="comment">En dernière année, ce stagiaire de première qualité peut être à vous pendant une période de 6 mois. Ingénieux au possible, il a toujours de bonnes idées et c'est se faire entendre lors des phases de conception. Volontaire et toujours de bonne humeur, il apportera le petit plus à tous vos projets et s'intégrera parfaitement à votre structure.</p>
+                <p class="comment">Ayant eu la chance de faire ma formation à l'<a href="HTTP://www.ingenieur-imac.fr" target="_blank"><abbr title="Image Multimédia Audiovisuelle Communication"><strong>IMAC</strong></abbr></a> je suis également à l'aise dans le développement web et ai été initié au travail de la vidéo, de l'image et du son.</p>
 
-                <p class="comment">Alors n'hésitez plus et contactez le. Par mail, par téléphone ou par votre réseau social préféré, il vous répondra dans les plus brefs délais.<p>
+                <p class="comment"><strong>Ingénieux</strong> au possible, j'ai toujours de <strong>bonnes idées</strong> et sais me faire entendre lors des phases de <strong>conception</strong>. Volontaire et toujours de bonne humeur, j'apporterai le petit plus à tous vos projets et m'intégrerai parfaitement à votre structure.</p>
 
-                
+                <p class="comment">Alors Si vous êtes dans la région de Nantes, n'hésitez plus et <strong><a href="#MeContacter">contactez moi </a></strong>. Par mail, par téléphone ou par votre réseau social préféré, je vous répondrai dans les plus brefs délais.<p>
 
             </article>
 
